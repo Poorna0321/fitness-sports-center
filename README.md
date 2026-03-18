@@ -33,7 +33,7 @@ npm run dev
 4. Open `http://localhost:5173` in your browser
 
 ## Live Link
-_Coming soon after deployment_
+https://fitness-sports-center-nine.vercel.app/
 
 ## Figma Design
 
