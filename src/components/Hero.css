@@ -142,3 +142,22 @@
     margin-top: -350px;
     margin-right: -100px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 24px;
+        overflow: hidden;
+    }
+
+    .hero-image-wrapper {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+}

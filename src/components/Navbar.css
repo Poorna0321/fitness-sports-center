@@ -34,7 +34,6 @@
     gap: 60px;
     margin-left: auto;
     margin-right: 70px;
-
 }
 
 .navbar-links a {
@@ -62,4 +61,44 @@
 
 .btn-cta:hover {
     opacity: 0.85;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-light);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 24px;
+    }
+
+    .btn-cta {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-gray);
+        padding: 24px;
+        gap: 24px;
+        margin: 0;
+    }
+
+    .navbar-links.open {
+        display: flex;
+    }
 }
