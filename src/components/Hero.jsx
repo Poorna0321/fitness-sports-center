@@ -1,4 +1,5 @@
 import './Hero.css';
+import heroImg from '../assets/homeimg.jpg'
 
 function Hero() {
     return (
@@ -9,10 +10,14 @@ function Hero() {
                     <span className="gold">BUILD YOUR LEGACY</span>
                 </h1>
                 <p className="hero-subtitle">
-                    Founded in 2023, Fitness Sports Center was built for people who are serious about results. We provide professional coaching, state-of-the-art equipment, and a community that pushes you further.
+                    Join Fitness Sports Center - Sri Lanka's premier training facility. Expert coaches, world-class equipment.
                 </p>
                 <button className="hero-btn">Start Your Journey</button>
-                <div className="hero-circle"></div>
+                <div className="hero-image-wrapper">
+                    <div className="hero-ring ring1"></div>
+                    <div className="hero-ring ring2"></div>
+                    <img src={heroImg} alt="Fitness" className="hero-image" />
+                </div>
             </div>
         </section>
     )

@@ -11,6 +11,11 @@
     margin-bottom: 60px;
 }
 
+.services-header .eyebrow {
+    align-self: flex-start;
+}
+
+
 .services-header h2 {
     font-size: 42px;
     font-weight: 700;

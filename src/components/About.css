@@ -26,23 +26,33 @@
     font-size: 42px;
     font-weight: 700;
     color: var(--text-light);
+    text-align: center;
 }
 
 .about-text p {
     font-size: 16px;
     color: var(--text-light);
     opacity: 0.75;
-    max-width: 700px;
+    max-width: 100%;
     line-height: 1.8;
+
+
 }
 
 .about-stats {
     display: flex;
-    gap: 80px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .stat h3 {
-    font-size: 48px;
+    font-size: 58px;
     font-weight: 900;
     color: var(--primary);
 }

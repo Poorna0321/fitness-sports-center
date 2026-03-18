@@ -77,3 +77,68 @@
     background-color: var(--primary);
     opacity: 0.05;
 }
+
+.hero-image-wrapper {
+    position: relative;
+    width: 420px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+.hero-image {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--primary);
+    position: relative;
+    z-index: 2;
+    object-position: center top;
+    transform: scale(1.1);
+}
+
+.hero-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 2s ease-out infinite;
+}
+
+.ring1 {
+    width: 460px;
+    height: 460px;
+    opacity: 0.4;
+}
+
+.ring2 {
+    width: 520px;
+    height: 520px;
+    opacity: 0.2;
+    animation-delay: 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(0.95);
+        opacity: 0.4;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+        opacity: 0.2;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(0.95);
+        opacity: 0.4;
+    }
+}
+
+.hero-image-wrapper {
+    margin-left: auto;
+    margin-top: -350px;
+    margin-right: -100px;
+}

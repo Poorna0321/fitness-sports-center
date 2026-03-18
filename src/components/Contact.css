@@ -17,6 +17,11 @@
     color: var(--text-light);
 }
 
+.contact-header .eyebrow {
+    align-self: flex-start;
+}
+
+
 .contact-form-wrapper {
     max-width: 600px;
     margin: 0 auto;
