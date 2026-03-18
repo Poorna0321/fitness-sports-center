@@ -155,9 +155,12 @@
 
     .hero-title {
         font-size: 36px;
+        white-space: normal;
     }
 
     .hero-subtitle {
         font-size: 14px;
+        white-space: normal;
+        max-width: 100%;
     }
 }
