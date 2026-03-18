@@ -83,6 +83,7 @@
 
     .hamburger {
         display: block;
+        margin-left: 12px;
     }
 
     .navbar-links {
@@ -100,6 +101,10 @@
 
     .navbar-links.open {
         display: flex;
+    }
+
+    .navbar-logo span {
+        font-size: 13px;
     }
 }
 
