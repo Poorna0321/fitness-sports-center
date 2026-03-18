@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Navbar.css'
 import logo from '../assets/logo.jpg'
 
-function Navbar() {
+function Navbar({ darkMode, setDarkMode }) {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
@@ -18,6 +18,9 @@ function Navbar() {
                 <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
             </ul>
             <button className="btn-cta desktop-only">Join Now</button>
+            <button className="dark-toggle" onClick={() => setDarkMode(!darkMode)}>
+                {darkMode ? '☀️' : '🌙'}
+            </button>
             <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                 {menuOpen ? '✕' : '☰'}
             </button>

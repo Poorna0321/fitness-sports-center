@@ -21,3 +21,17 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+.light {
+    --bg-dark: #F5F5F5;
+    --bg-brown: #E8E0D0;
+    --bg-gray: #DEDEDE;
+    --text-light: #1a1a1a;
+}
+
+.dark {
+    --bg-dark: #0A0A0A;
+    --bg-brown: #2C2416;
+    --bg-gray: #2B2B2B;
+    --text-light: #F2F0EB;
+}

@@ -1,16 +1,45 @@
-# React + Vite
+# Fitness Sports Center 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive promotional website for a local fitness brand, built as part of the Koncepthive Web Development Internship Evaluation.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React + Vite
+- Plain CSS
+- JavaScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Fully responsive design (desktop & mobile)
+- Hero section with animated image
+- About section with count-up animations
+- Services section with hover effects
+- Contact form with validation and success feedback
+- Dark/Light mode toggle
+- Smooth scroll navigation
+- Hamburger menu for mobile
 
-## React Compiler
+## Setup Instructions
+1. Clone the repository
+```bash
+git clone https://github.com/Poorna0321/fitness-sports-center.git
+```
+2. Install dependencies
+```bash
+npm install
+```
+3. Run the development server
+```bash
+npm run dev
+```
+4. Open `http://localhost:5173` in your browser
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Link
+_Coming soon after deployment_
 
-## Expanding the ESLint configuration
+## Figma Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+_Desktop version_
+https://www.figma.com/design/dLx5HXfgpyqK1XK4uXB6MH/Fitness-Sports-Center-_UI?node-id=0-1&t=NtXdhYerEIKlQZFb-1
+
+_Mobile Version_
+https://www.figma.com/design/dLx5HXfgpyqK1XK4uXB6MH/Fitness-Sports-Center-_UI?node-id=4-3&t=NtXdhYerEIKlQZFb-1
+
