@@ -17,3 +17,7 @@ body {
     color: var(--text-light);
     font-family: 'Segoe UI', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
